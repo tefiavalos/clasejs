@@ -113,3 +113,45 @@ console.log (resultadoPerimetro)
 
 console.log (resultadoArea)
 
+
+//ejercicio34
+
+let ingresos = 1000
+
+let ganancias = 600
+
+let impuestos = 500
+
+let objetivoIngresos = ingresos >= 800
+
+let objetivoImpuestos = impuestos < 400
+
+let bonoGanancias = impuestos == 600
+
+console.log (objetivoIngresos)
+
+console.log (objetivoImpuestos)
+
+console.log (bonoGanancias)
+
+//ejercicio36
+
+let numeroUno = 10
+
+let numeroDos = 20
+
+console.log (numeroUno == numeroDos)
+
+console.log (numeroUno != numeroDos)
+
+//ejercicio37
+
+let promedioParaAprobar = 6
+
+let promedioDelAlumno = 4
+
+console.log (promedioDelAlumno>=promedioParaAprobar)
+
+console.log (promedioParaAprobar - promedioDelAlumno )
+
+
