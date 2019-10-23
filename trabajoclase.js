@@ -9,23 +9,23 @@ numero2 = 4880
 
 let resultado = numero1 + numero2
 
-console.log (resultado)
+console.log(resultado)
 
 resultado = numero1 - numero2
 
-console.log (resultado)
+console.log(resultado)
 
 resultado = numero1 * numero2
 
-console.log (resultado)
+console.log(resultado)
 
 resultado = numero1 / numero2
 
-console.log (resultado)
+console.log(resultado)
 
 resultado = numero1 % numero2
 
-console.log (resultado)
+console.log(resultado)
 
 //ejercicio28
 
@@ -33,43 +33,43 @@ let numero = 9
 
 let resultado2 = numero * 1
 
-console.log (resultado2)
+console.log(resultado2)
 
 resultado2 = numero * 2
 
-console.log (resultado2)
+console.log(resultado2)
 
 resultado2 = numero * 3
 
-console.log (resultado2)
+console.log(resultado2)
 
 resultado2 = numero * 4
 
-console.log (resultado2)
+console.log(resultado2)
 
 resultado2 = numero * 5
 
-console.log (resultado2)
+console.log(resultado2)
 
 resultado2 = numero * 6
 
-console.log (resultado2)
+console.log(resultado2)
 
 resultado2 = numero * 7
 
-console.log (resultado2)
+console.log(resultado2)
 
 resultado2 = numero * 8
 
-console.log (resultado2)
+console.log(resultado2)
 
 resultado2 = numero * 9
 
-console.log (resultado2)
+console.log(resultado2)
 
 resultado2 = numero * 10
 
-console.log (resultado2)
+console.log(resultado2)
 
 //ejercicio29
 
@@ -77,7 +77,7 @@ let longitudLado = 10
 
 let perimetro = 10 * 4
 
-console.log (perimetro)
+console.log(perimetro)
 
 //ejercicio30
 
@@ -85,7 +85,7 @@ let longitud = 5
 
 let areaCuadrado = 5 ** 2
 
-console.log (areaCuadrado)
+console.log(areaCuadrado)
 
 //ejercicio31
 
@@ -97,7 +97,7 @@ let ladoTres = 5
 
 let perimetroTriangulo = ladoUno + ladoDos + ladoTres
 
-console.log (perimetroTriangulo)
+console.log(perimetroTriangulo)
 
 //ejercicio32
 
@@ -117,17 +117,17 @@ console.log (resultadoArea)
 
 let cantidadDePersonas = 100
 
-cantidadDePersonas = cantidadDePersonas += 5
+cantidadDePersonas += 5
 
 console.log("Cantidad de personas: " + cantidadDePersonas)
 
 cantidadDePersonas = cantidadDePersonas - 3
 
-console.log ("Cantidad de personas: "+ cantidadDePersonas)
+console.log("Cantidad de personas: "+ cantidadDePersonas)
 
 cantidadDePersonas = cantidadDePersonas*2
 
-console.log ("Cantidad de personas: "+ cantidadDePersonas)
+console.log("Cantidad de personas: "+ cantidadDePersonas)
 
 //ejercicio34
 
@@ -143,11 +143,11 @@ let objetivoImpuestos = impuestos < 400
 
 let bonoGanancias = impuestos == 600
 
-console.log (objetivoIngresos)
+console.log(objetivoIngresos)
 
-console.log (objetivoImpuestos)
+console.log(objetivoImpuestos)
 
-console.log (bonoGanancias)
+console.log(bonoGanancias)
 
 //ejercicio35
 
@@ -165,9 +165,9 @@ let numeroUno = 10
 
 let numeroDos = 20
 
-console.log (numeroUno == numeroDos)
+console.log(numeroUno == numeroDos)
 
-console.log (numeroUno != numeroDos)
+console.log(numeroUno != numeroDos)
 
 //ejercicio37
 
@@ -175,8 +175,10 @@ let promedioParaAprobar = 6
 
 let promedioDelAlumno = 4
 
-console.log (promedioDelAlumno>=promedioParaAprobar)
+console.log(promedioDelAlumno>=promedioParaAprobar)
 
-console.log (promedioParaAprobar - promedioDelAlumno) //no pude hacerlo con ${}
+let puntosRestantes = promedioParaAprobar - promedioDelAlumno
+
+console.log(`al alumno le faltaron ${puntosRestantes} para aprobar`) //no pude hacerlo con ${}
 
 
